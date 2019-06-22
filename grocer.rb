@@ -11,7 +11,6 @@ def consolidate_cart(cart)
   return organized_cart
 end
 
-def apply_coupons(cart, coupons)
   def apply_coupons(cart, coupons)
   coupons.each do |coupon_hash|
     fruit_name = coupon_hash[:item]
